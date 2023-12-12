@@ -1,0 +1,37 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "extends": "./tsconfig.json",
+  "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2020",
+    "module": "es2020",
+    "types": [
+      "node"
+    ]
+  },
+  "files": [
+    "src/main.ts",
+    "src/main.server.ts",
+    "server.ts"
+  ],
+  "include": [
+    "src/**/*.d.ts"
+  ]
+
+  
+}
+
